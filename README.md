@@ -1,6 +1,8 @@
 NOTES ON TMUX LEARNING
 ======================
 
+These note are taken from the reading of the book: *Tmux 2 Productive Mouse Free Development* which is edited by Pragmatic Bookshelf
+
 Installation (Linux)
 --------------------
 
@@ -25,3 +27,14 @@ $ cd tmux-{STABLE-VERSION-NUMBER}
 $ ./configure && make
 $ sudo make install
 ```
+
+Starting / Stopping Tmux
+------------------------
+
+To start tmux: `$ tmux`
+
+To exit tmux, you can type `$ exit` just like a normal terminal.
+
+Inside a tmux terminal all the command are prefixed by `Ctrl + b`
+
+Example: `Ctrl + b` and `t` display a clock.
