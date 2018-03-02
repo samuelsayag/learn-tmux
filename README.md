@@ -75,6 +75,18 @@ You can specify the session you want to attach to with a target option:
 `$ tmux attach -t <target-session-name>`
 
 
+### Detach from session
+
+Hit `Ctrl + d`
+
+
+### Killing session
+
+Killing session follow the same basic principle that creating it.
+If you have just one session as you will be killing it else you may target the session you want to kill.
+
+`$ tmux kill-session [-t <target-session>]`
+
 
 
 
