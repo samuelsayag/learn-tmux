@@ -88,7 +88,24 @@ If you have just one session as you will be killing it else you may target the s
 `$ tmux kill-session [-t <target-session>]`
 
 
+Windows
+-------
 
+### The basic
+
+Windows are kind of tab that help you organise your work in the same session.
+
+To open a new window: `Ctrl + b` and `c`
+
+To close a window your on: `Ctrl + b` and `&` or simply type `exit` in the window.
+
+To navigate between your windows: `Ctrl + b` and `n` (next) `p` (previous).
+
+Find window: `Ctrl + b` and `f` and then type text you are searching for.
+
+To display a menu with available windows: `Ctrl + b` and `w`
+
+To rename a window: `Ctrl + b` and then `,`
 
 
 
